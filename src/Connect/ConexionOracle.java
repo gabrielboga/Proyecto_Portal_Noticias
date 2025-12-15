@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class ConexionOracle {
     public static void main(String[] args) {
-        String url = "jdbc:oracle:thin:@localhost:1521:ORCL";
-        String user = "practica1";
-        String password = "12345";
+        String url = "jdbc:oracle:thin:@//localhost:1521/XEPDB1";
+        String user = "LENGUAJE1";
+        String password = "123";
 
         try {
             // Cargar el driver
